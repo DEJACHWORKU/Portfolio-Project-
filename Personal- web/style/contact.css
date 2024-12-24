@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+  
+    }
+    .nav{
+    background-color: #ffff;
+    color: #00ff73;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+    }
+    .logo
+     {
+    
+    text-transform: uppercase;
+    font-family: cursive;
+    padding: 3px 50px;
+    letter-spacing: 2px;
+    font-size: 30PX;
+    padding-top: 5px;
+    }
+    .navlinks{
+      float: right;
+      padding-right: 30px;
+      cursor: pointer;
+    color: black;
+
+    } 
+    .navlinks ul li{
+    display: inline-block;
+   
+    cursor: pointer;
+    color: #0c0c0b;
+    font: bold;
+    padding-left: 100px;
+
+    }
+    .navlinks ul li a{
+    text-decoration: none;
+    color: #107df8;
+    font-size: 17px;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding-right: 0px;
+    margin: 30px;
+   
+    }
+    .contact {
+      background-color: bisque;
+      border: 2px solid crimson;
+      margin: 30px 2opx;
+      text-align: center;
+    }
+    .contact h1{
+      padding-top: 30px;
+      font-family: cursive;
+      font-size: 40px;
+      color: crimson;
+    }
+    .form{
+      display: grid;
+      align-items: center; 
+      justify-content: center;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      padding:10px;
+    }
+    input[type=text]
+    {
+      margin: 10px auto 30px auto;
+      width: 250px;
+      padding: 7px 5px;
+      border: 2px solid black;
+      border-radius: 3px;
+    }
+    input[type=email]
+    {
+      margin: 10px auto 30px auto;
+      width: 300px;
+      padding: 7px 5px;
+      border: 2px solid black;
+      border-radius: 3px;
+    }
+    input[type=number]
+    {
+      margin: 10px auto 30px auto;
+      width: 100px;
+      padding: 7px 5px;
+      border: 2px solid green;
+      border-radius: 3px;
+    }
+  
+    .form textarea {
+      margin: 10px auto 30px auto;
+      width: 30px;
+      height: 400px;
+      padding: 6px 4px;
+      border: 2px solid rgb(255, 114, 0);
+      border-radius: 3px;
+    }
+    .footer{
+  size: 100%;
+      display: flex;
+      padding:0px ;
+      padding-left: 0%;
+      padding-right: 0%;
+     align-items: center;
+     background-color: grey;
+     justify-content: space-around;
+     }
+     .footer1 h1,.footer2 h2,.footer3 h2,.credit p{
+       color: rgb(245, 242, 250);
+     }
+     .credit span{
+        font-size: 30px;
+        font-weight: 1000px;
+        color: rgb(0, 255, 98);
+        font: bold;
+     }
+     .credit p{
+        font-size: 17px;
+        font: bolder;  
+  font-weight: 800;
+  color: black;
+}
+.navlinks ul li a:hover{
+background-color:aqua;
+}
+
+   
+
+    
+  
+    
+     
+    
+     
